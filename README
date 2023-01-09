@@ -1,0 +1,37 @@
+# SOBRE.MEMORY
+Module MEMORY de Sobre.js
+
+L'objectif du module MEMORY était ultra simple : Détecter si la mémoire du processus de l'application avait atteint une certaine limite puis agir sur les nouvelles requêtes par exemple pour les interrompre et renvoyer une erreur.
+ET C'EST TOUT !
+
+Cette fonctionnalitée peut être également couplée avec la librairie os (freemem, totalmem) ou ulimit pour une meilleure gestion de la mémoire.
+
+# SOBRE.JS
+
+Sobre.js est une librairie javascript que je développe et utilise depuis 2015.
+
+De 2015 à 2018 :
+	- Les versions 0 et 1 étaient des versions clientes utilisées avec les navigateurs en ajoutant le script au html.
+
+De 2018 à 2022 :
+	- La version 2 a été profondément modifiée afin de fonctionner uniquement en mode serveur avec Nodejs.
+	
+Maintenant (2023) :
+	- La version 3 va être redécoupée en modules autonomes et devra fonctionner aussi bien en mode serveur que client.
+		(note : les modules en V2 étaient trop dépendants les uns des autres et les projets trop dépendants des utilisateurs.)
+
+Sobre.js à l'orgine étaient une librairie de fonctions réutilisables que j'utilisais dans tous mes projets personnels en javascript.
+Avec le temps, c'est devenu pour moi une façon de développer et un véritable framework que j'utilise régulièrement dans mes projets persos.
+
+Jusqu'à présent, Sobre.js n'avait pas pour but d'être visible (et c'est toujours le cas) et utilisé par d'autres (mais libre à vous).
+Cependant, il s'agit d'un projet qui me tient à coeur depuis des années et que je continue à faire évoluer.
+
+Pour développer des UI rapidement ma dévise était : "Sobre mais efficace !" et la librairie s'inscrit dans cette idéologie.
+
+Etre Sobre : Pas de super design, juste des fonctionnalitées simples !
+Coder rapidement : Coder une page web en la décrivant, aussi simplement !
+
+Modules par modules, j'essaierais de publier la librairie au complet.
+Ce sera probablement long mais ce n'est pas comme ci j'avais quelconque attente !
+
+Mathaus Leth.
